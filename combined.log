@@ -2195,3 +2195,8 @@
 {"level":"error","message":"400 - Email уже используется"}
 {"level":"info","message":"✉️ Email sent to dase2051@gmail.com"}
 {"level":"info","message":"✉️ Email sent to zurich@adventure.com"}
+{"level":"info","message":"Server started on http://localhost:5002"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"error","message":"401 - Invalid token"}
+{"level":"info","message":"Server started on http://localhost:5002"}
+{"level":"info","message":"✅ MongoDB connected"}
