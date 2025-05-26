@@ -16,8 +16,11 @@ const app = express();
 
 // Middleware
 const corsOptions = {
-    origin: undefined,
-    // или '*' для всех доменов (не рекомендуется для продакшена)
+    origin: [
+        'http://localhost:5173',
+        'https://booking-task-frontend.vercel.app',
+        undefined,
+    ], // или '*' для всех доменов (не рекомендуется для продакшена)
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'], // Явно разрешаем PATCH
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true, // Если используете куки/авторизацию
