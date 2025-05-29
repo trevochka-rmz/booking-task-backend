@@ -15,17 +15,7 @@ import locationRoutes from './routes/location.routes.js';
 const app = express();
 
 // Middleware
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'https://booking-task-frontend.vercel.app',
-        undefined,
-    ], // или '*' для всех доменов (не рекомендуется для продакшена)
-    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'], // Явно разрешаем PATCH
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true, // Если используете куки/авторизацию
-};
-app.use(cors(corsOptions));
+app.use(cors({ origin: '*' }));
 // app.options('*', cors(corsOptions));
 
 // app.options('*', cors(corsOptions)); // Для preflight запросов
