@@ -2200,3 +2200,14 @@
 {"level":"error","message":"401 - Invalid token"}
 {"level":"info","message":"Server started on http://localhost:5002"}
 {"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Server started on 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Server started on 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Server started on 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Server started on 5000"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Server started on 5002"}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"error","message":"400 - Email уже используется"}

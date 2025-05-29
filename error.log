@@ -2048,3 +2048,4 @@
 {"level":"error","message":"500 - Cannot destructure property 'name' of 'req.body' as it is undefined."}
 {"level":"error","message":"400 - Email уже используется"}
 {"level":"error","message":"401 - Invalid token"}
+{"level":"error","message":"400 - Email уже используется"}
